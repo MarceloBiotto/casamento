@@ -16,6 +16,23 @@
             Olá galera! Me chamo Geoavane e vocês poderam acompanhar através dessa página quanto tempo falta para eu e a Tainá casarmos!
         </p>
         <img src="casal.png" alt="eu e a taina">
+        <div id="countdown "> </div>
+
+        <script>
+            // Defina a data do seu casamento (no formato ano, mês, dia, hora, minuto, segundo).
+            var weddingDate = new Date(2023, 11, 25, 14, 0, 0);
+          
+            // Atualiza o contador de tempo a cada segundo.
+            setInterval(function() {
+              // Calcula a diferença entre a data atual e a data do casamento.
+              var now = new Date();
+              var diff = weddingDate.getTime() - now.getTime();
+          
+              // Calcula o número de dias restantes e atualiza o marcador de tempo.
+              var days = Math.floor(diff / (1000 * 60 * 60 * 24));
+              document.getElementById('countdown').innerHTML = 'Faltam ' + days + ' dias para o meu casamento!';
+            }, 1000);
+          </script>
 
 
 
