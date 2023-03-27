@@ -24,21 +24,36 @@
 
 
     </main>
-    
+    <script>
+        // Defina a data do seu casamento (no formato ano, mês, dia, hora, minuto, segundo).
+        var weddingDate = new Date('2023-11-25T16:00:00Z').getTime();
+      
+        // Atualiza o contador de tempo a cada segundo.
+        var x = setInterval(function() {
+      
+          // Pega a data e hora atual
+          var now = new Date().getTime();
+      
+          // Calcula a diferença entre a data atual e a data do casamento.
+          var distance = weddingDate - now;
+      
+          // Calcula dias, horas, minutos e segundos restantes
+          var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+          var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+          var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+          var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+      
+          // Exibe a contagem regressiva em um elemento HTML
+          document.getElementById("countdown").innerHTML = "Faltam " + days + " dias, " + hours + " horas, "
+          + minutes + " minutos e " + seconds + " segundos para o meu casamento.";
+      
+          // Se o contador chegar a zero, pare o contador
+          if (distance < 0) {
+            clearInterval(x);
+            document.getElementById("countdown").innerHTML = "O casamento já aconteceu!";
+          }
+        }, 1000);
+      </script>
 </body>
-<script>
-    // Defina a data do seu casamento (no formato ano, mês, dia, hora, minuto, segundo).
-    var weddingDate = new Date(2023, 11, 25, 14, 0, 0);
-  
-    // Atualiza o contador de tempo a cada segundo.
-    setInterval(function() {
-      // Calcula a diferença entre a data atual e a data do casamento.
-      var now = new Date();
-      var diff = weddingDate.getTime() - now.getTime();
-  
-      // Calcula o número de dias restantes e atualiza o marcador de tempo.
-      var days = Math.floor(diff / (1000 * 60 * 60 * 24));
-      document.getElementById('countdown').innerHTML = 'Faltam ' + days + ' dias para o meu casamento!';
-    }, 1000);
-  </script>
+
 </html>
