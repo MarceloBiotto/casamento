@@ -6,14 +6,16 @@
 body{
     height: 100vh;
     box-sizing: border-box;
-    background-color: #61F2FA;
-    color: #835AFA;
+    background-color: #C9B7FF;
+    color: #ABF2FF;
     
     }
     .geo {
         color: red;
     }
-    
+    .tai{
+        color: blue;
+    }
 
 
    
