@@ -1,4 +1,20 @@
-body{
-    background-color: aquamarine;
-    color: brown;
+*{
+    margin: 0;
+    padding: 0;
+    
 }
+body{
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #61F2FA;
+    color: #835AFA;
+    
+    }
+    .geo {
+        color: red;
+    }
+    
+
+
+   
+   
