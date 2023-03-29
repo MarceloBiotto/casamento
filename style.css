@@ -1,36 +1,38 @@
 *{
-    margin: 0;
-    padding: 0;
-    
+  margin: 0;
+  padding: 0;
+  
 }
 body{
-    height: 100vh;
-    box-sizing: border-box;
-    background-color: #C9B7FF;
-    color: #ABF2FF;
+  height: 100vh;
+  box-sizing: border-box;
+  background-color: #C9B7FF;
+  color: #ABF2FF;
+  
+  }
+  .geo {
+      color: red;
+  }
+  .tai{
+      color: blue;
+  }
+  img {
+
+      width: 500px;
     
     }
-    .geo {
-        color: red;
+
+    .comemoracao {
+
+      margin: 10%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
     }
-    .tai{
-        color: blue;
+
+    .comemoracao__casal{
+      width: 45%;
     }
-    img {
-
-        width: 500px;
-      
-      }
-
-      .comemoracao {
-
-        margin: 10%;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-      }
-      
-      
-
-   
+    
+    
    
