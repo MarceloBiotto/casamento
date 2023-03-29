@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Oswald&display=swap');
 
 *{
   margin: 0;
@@ -16,7 +16,7 @@ body{
       color: red;
   }
   .tai{
-      color: rgb(145, 255, 0);
+      color: blue;
   }
   img {
 
@@ -30,6 +30,7 @@ body{
       display: flex;
       align-items: center;
       justify-content: space-between;
+      font-family: 'Alkatra', cursive;
     }
 
     .comemoracao__casal{
@@ -45,4 +46,5 @@ body{
 
    .comemoracao__conteudo__texto{
     font-size: 24px;
+    font-family: 'Oswald', sans-serif;
    }
