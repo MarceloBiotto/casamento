@@ -31,6 +31,7 @@ body{
       align-items: center;
       justify-content: space-between;
       font-family: 'Alkatra', cursive;
+      gap: 50px;
     }
 
     .comemoracao__casal{
