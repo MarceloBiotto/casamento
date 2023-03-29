@@ -1,3 +1,5 @@
+
+
 *{
   margin: 0;
   padding: 0;
@@ -14,7 +16,7 @@ body{
       color: red;
   }
   .tai{
-      color: blue;
+      color: rgb(145, 255, 0);
   }
   img {
 
@@ -34,5 +36,13 @@ body{
       width: 45%;
     }
     
-    
-   
+    .comemoracao__conteudo{
+      width: 615px;
+    }
+   .comemoracao__conteudo__titulo {
+    font-size: 36px;
+   }
+
+   .comemoracao__conteudo__texto{
+    font-size: 24px;
+   }
