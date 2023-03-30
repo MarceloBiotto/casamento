@@ -30,7 +30,7 @@ body{
       margin: 10% 15%;
       display: flex;
       align-items: center;
-      justify-content: space-between  ;
+      justify-content: space-between;
       font-family: 'Alkatra', cursive;
       gap: 50px;
     }
@@ -63,4 +63,4 @@ body{
     
    }
 
-   
+  
