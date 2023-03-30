@@ -19,7 +19,8 @@ body{
       color: blue;
   }
   img {
-      border: solid;
+
+      border-radius: 20px;
       width: 500px;
     
     }
@@ -43,7 +44,6 @@ body{
 
       width: 615px;
       display: flex;
-      flex-direction: column;
       gap: 40px;
     }
    .comemoracao__conteudo__titulo {
@@ -55,11 +55,16 @@ body{
 
    .comemoracao__conteudo__texto{
     
-    text-align: left;
-    height: 45%;
+   
     font-size: 24px;
     font-family: 'Oswald', sans-serif;
     
 
     
+   }
+
+   .comemoracao__largura{
+    text-align: left;
+  
+
    }
