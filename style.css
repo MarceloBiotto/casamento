@@ -13,7 +13,7 @@
     justify-content: space-between;
     align-items: center;
     font-family: 'Alkatra', cursive;
-    gap: 15px;
+    gap: 25px;
     
  }
 
@@ -25,7 +25,7 @@ body{
 }
 
 .item{
-  width: 40%;
+  font-size: 14px;
   text-align: center;
   font-family: 'Oswald', sans-serif;
 
@@ -34,14 +34,17 @@ body{
 .casamento__imagem {
    
   width: 500px;
-   border-radius: 20px;
-   
-}
+  border-style: solid;
+  border-radius: 16px;
+  
+
+  }
   
     .texto__final{
-      font-size: 18px;
+      font-size: 24px;
       text-align: center;
       font-family: 'Oswald', sans-serif;
+      
     }
     
 
