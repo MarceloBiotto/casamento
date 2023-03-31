@@ -20,8 +20,8 @@
 body{
   height: 100vh;
   box-sizing: border-box;
-  background-color: #C9B7FF;
-  color: #ABF2FF;
+  background-color: #E892E1;
+  color: #FF2ED6;
 }
 
 .item{
@@ -36,7 +36,7 @@ body{
   width: 500px;
   border-style: solid;
   border-radius: 16px;
-  
+  border-color: #E500C6;
 
   }
   
