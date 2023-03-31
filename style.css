@@ -5,62 +5,46 @@
   padding: 0;
   
 }
+
+.casamento__container{
+    margin: 10% 15%;
+    display: flex;
+    flex-wrap: nowrap; 
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Alkatra', cursive;
+    gap: 15px;
+    
+ }
+
+
 body{
   height: 100vh;
   box-sizing: border-box;
   background-color: #C9B7FF;
   color: #ABF2FF;
+}
+
+.item{
+  width: 40%;
+  text-align: center;
+}
+
+.casamento__imagem {
+   
+  width: 500px;
+   border-radius: 20px;
+   
+}
   
-  }
-  .geo {
-      color: red;
-  }
-  .tai{
-      color: blue;
-  }
-  img {
-
-      border-radius: 20px;
-      width: 500px;
-    
-    }
-
-    .comemoracao {
-
-      margin: 10% 15%;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      font-family: 'Alkatra', cursive;
-      gap: 50px;
-    }
-
-    .comemoracao__casal{
-      width: 95%;
-      
+    .texto__final{
+      font-size: 18px;
+      text-align: center;
+      font-family: 'Oswald', sans-serif;
     }
     
-    .comemoracao__conteudo{
 
-      width: 615px;
-      display: flex;
-      flex-direction: column;
-      gap: 40px;
-    }
-   .comemoracao__conteudo__titulo {
-    font-size: 36px;
-    
-    
-   }
-
-   .comemoracao__conteudo__texto{
     
    
-    font-size: 24px;
-    font-family: 'Oswald', sans-serif;
-    
-
-    
-   }
 
   
