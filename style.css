@@ -30,6 +30,13 @@ body{
   font-family: 'Oswald', sans-serif;
 
 }
+.apresentacao__links__link{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 32px;
+}
 
 .casamento__imagem {
    
