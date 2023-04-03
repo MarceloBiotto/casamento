@@ -52,6 +52,12 @@ body{
         
 }
 
+.apresentacao__links__link:hover{
+  background-color: #FF2ED6;
+  font-size: 16px;
+
+}
+
 .casamento__imagem {
    
   width: 500px;
