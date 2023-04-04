@@ -23,6 +23,24 @@ body{
   background-color: #E892E1;
   color: #FF2ED6;
 }
+.cabecalho {
+  padding: 2% 0% 0% 15%;
+}
+
+
+.cabecalho__menu{
+
+  display: flex;
+  gap: 80px;
+}
+.cabecalho__menu__link{
+
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: #22d4fd;
+  text-decoration: none;
+}
 
 .item{
   font-size: 14px;
