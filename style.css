@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Oswald&display=swap');
 
+:root{
+            --cor-primaria: #E500C6;
+            --cor-segundaria: #ff2ed6;
+            --cor-terciaria: #e892e1;
+            --cor-preta: #000000;
+}
+
 *{
   margin: 0;
   padding: 0;
@@ -20,11 +27,12 @@
 body{
   /* height: 100vh; */
   box-sizing: border-box;
-  background-color: #E892E1;
-  color: #FF2ED6;
+  background-color: var(--cor-terciaria);
+  color: var(--cor-segundaria);
 }
 .cabecalho {
-  padding: 2% 0% 0% 15%;
+  padding: 2% 0% 0% 29%;
+  color: var(--cor-primaria);
 }
 
 
@@ -32,13 +40,14 @@ body{
 
   display: flex;
   gap: 80px;
+
 }
 .cabecalho__menu__link{
 
   font-family: 'Montserrat', sans-serif;
   font-size: 24px;
   font-weight: 600;
-  color: #22d4fd;
+  color: var(--cor-segundaria);
   text-decoration: none;
 }
 
@@ -62,7 +71,7 @@ body{
         text-decoration: none;
         display: flex;
         flex-direction:row;
-        border: 2px solid #E500C6;
+        border: 2px solid var(--cor-primaria);
         border-radius: 4px;
         gap: 16px;
         align-items: center;
@@ -71,7 +80,7 @@ body{
 }
 
 .apresentacao__links__link:hover{
-  background-color: #FF2ED6;
+  background-color: var(--cor-segundaria);
   font-size: 16px;
 
 }
@@ -81,7 +90,7 @@ body{
   width: 500px;
   border-style: solid;
   border-radius: 16px;
-  border-color: #E500C6;
+  border-color: var(--cor-primaria);
 
   }
   
@@ -95,8 +104,8 @@ body{
 
     .rodape {
       padding: 32px;
-      color: black;
-      background-color: #E500C6;
+      color: var(--cor-preta);
+      background-color: var(--cor-primaria);
       text-align: center;
       font-family: 'Montserrat', sans-serif;
       font-size: 16px;
