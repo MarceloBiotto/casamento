@@ -1,10 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Oswald&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Montserrat:wght@300&family=Niconne&family=Oswald&display=swap');
+
 
 :root{
-            --cor-primaria: #E500C6;
-            --cor-segundaria: #ff2ed6;
-            --cor-terciaria: #e892e1;
+            --cor-primaria: #E8A0BF;
+            --cor-segundaria: #BA90C6;
+            --cor-terciaria: #C0DBEA;
             --cor-preta: #000000;
+
+            --fonte-primaria: 'Alkatra', cursive;
+            --fonte-secundaria: 'Montserrat', sans-serif;
+            --fonte-terciaria: 'Oswald', sans-serif;
+            --fonte-quartenaria: 'Niconne', cursive;
 }
 
 *{
@@ -14,12 +21,12 @@
 }
 
 .casamento__container{
-    margin: 10% 15%;
+    margin: 4% 15%;
     display: flex;
     flex-wrap: nowrap; 
     justify-content: space-between;
     align-items: center;
-    font-family: 'Alkatra', cursive;
+    font-family: var(--fonte-primaria);
     gap: 25px;
     
  }
@@ -40,21 +47,22 @@ body{
 
   display: flex;
   gap: 80px;
+  padding: 24px;
 
 }
 .cabecalho__menu__link{
 
-  font-family: 'Montserrat', sans-serif;
-  font-size: 24px;
+  font-family: var(--fonte-secundaria);
+  font-size: 1.5rem;
   font-weight: 600;
   color: var(--cor-segundaria);
   text-decoration: none;
 }
 
 .item{
-  font-size: 14px;
+  font-size: 0.87rem;
   text-align: center;
-  font-family: 'Oswald', sans-serif;
+  font-family: var(--fonte-terciaria);
   gap: 32px;
 
 }
@@ -87,7 +95,7 @@ body{
 
 .casamento__imagem {
    
-  width: 500px;
+  width: 31.25rem;
   border-style: solid;
   border-radius: 16px;
   border-color: var(--cor-primaria);
@@ -95,9 +103,10 @@ body{
   }
   
     .texto__final{
-      font-size: 24px;
+      font-size: 1.5rem;
       text-align: center;
-      font-family: 'Oswald', sans-serif;
+      font-family: var(--fonte-quartenaria);
+      font-weight: 600;
       
     }
     
@@ -107,7 +116,39 @@ body{
       color: var(--cor-preta);
       background-color: var(--cor-primaria);
       text-align: center;
-      font-family: 'Montserrat', sans-serif;
-      font-size: 16px;
+      font-family: var(--fonte-secundaria);
+      font-size: 1rem;
 }
     
+.galeria {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+ .titulo__about{
+      font-size: 2.5rem;
+      text-align: center;
+      font-family: var(--fonte-quartenaria);
+      font-weight: 600;
+
+ }
+ 
+  
+  .galeria1 {
+  border-radius: 12px;
+  border: 4px solid var(--cor-primaria);
+}
+.galeria2 {
+  border-radius: 12px;
+  border: 4px solid var(--cor-primaria);
+}
+.galeria3 {
+  border-radius: 12px;
+  border: 4px solid var(--cor-primaria);
+}
+.galeria4 {
+  border-radius: 12px;
+  border: 4px solid var(--cor-primaria);
+}
