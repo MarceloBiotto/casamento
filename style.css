@@ -196,3 +196,8 @@ body{
     width: auto;
   }
 }
+
+.casamento__imagem:hover{
+  border: 8px solid var(--cor-segundaria);
+  
+}
