@@ -202,3 +202,7 @@ background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 0%, rgb
   border: 8px solid var(--cor-segundaria);
   
 }
+
+.rodape{
+  width: auto;
+}
