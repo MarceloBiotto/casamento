@@ -21,10 +21,9 @@
 }
 
 .principal{
-  width: auto;
   background-image: url("assets/casalll.JPG");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 150%;
   align-items: center;
   text-align: center;
 }
