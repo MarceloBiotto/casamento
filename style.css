@@ -20,6 +20,15 @@
   
 }
 
+.principal{
+  background-image: url("assets/casalll.JPG");
+  background-repeat: no-repeat;
+  background-size: contain;
+  align-items: center;
+  text-align: center;
+}
+
+
 .casamento__container{
     margin: 4% 15%;
     display: flex;
