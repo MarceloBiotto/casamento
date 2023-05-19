@@ -30,7 +30,12 @@
   text-align: center;
   background-position: center;
 }
-
+.nomes{
+  font-size: 1.5rem;
+  text-align: center;
+  font-family: var(--fonte-quartenaria);
+  font-weight: 600;
+}
 
 
 .casamento__container{
