@@ -21,6 +21,7 @@
 }
 
 .principal{
+  width: auto;
   background-image: url("assets/casalll.JPG");
   background-repeat: no-repeat;
   background-size: contain;
