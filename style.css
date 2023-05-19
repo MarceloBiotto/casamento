@@ -25,7 +25,7 @@
   display: inline-block;
   height: 100vh; 
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 100%;
   align-items: center;
   text-align: center;
 }
