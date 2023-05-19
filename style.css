@@ -23,7 +23,7 @@
 .principal{
   background-image: url("assets/casalll.JPG");
   background-repeat: no-repeat;
-  background-size: 80%;
+  background-size: contain;
   align-items: center;
   text-align: center;
 }
