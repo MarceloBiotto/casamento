@@ -29,9 +29,11 @@
   align-items: center;
   text-align: center;
   background-position: center;
+  border-style: solid;
+  border-radius: 16px;
 }
 .nomes{
-  font-size: 1.5rem;
+  font-size: 4rem;
   text-align: center;
   font-family: var(--fonte-quartenaria);
   font-weight: 600;
