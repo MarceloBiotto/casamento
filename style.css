@@ -19,6 +19,7 @@
   padding: 0;
   
 }
+<<<<<<< HEAD
 .background__teste{
   background-image: url("assets/background.png");
   background-repeat: no-repeat;
@@ -26,10 +27,22 @@
   background-size: cover;
  
 }
+=======
+
+.backgrounds__teste{
+  background-image: url("assets/background.png");
+ background-repeat: no-repeat;
+
+
+ 
+
+}
+
+>>>>>>> d78920fe29078771031437af89576e75084e5ddf
 .background{
   background-image: url("assets/casalll.JPG");
   display: grid;
-  height: 100vh; 
+  height: 80vh; 
   background-repeat: no-repeat;
   background-size: contain;
   align-items: center;
