@@ -19,7 +19,13 @@
   padding: 0;
   
 }
-
+.background__teste{
+  background-image: url("assets/background.png");
+  background-repeat: no-repeat;
+  height: 100%;
+  background-size: cover;
+ 
+}
 .background{
   background-image: url("assets/casalll.JPG");
   display: grid;
@@ -199,7 +205,7 @@ background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 0%, rgb
 
 @media(max-width: 75rem){
   .cabecalho{
-    padding: auto;
+    padding: center;
    
    
   }
@@ -208,6 +214,25 @@ background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 0%, rgb
 
     
   }
+  .background{
+  background-image: url("assets/casalll.JPG");
+  display: grid;
+  height: 50vh; 
+  background-repeat: no-repeat;
+  background-size: contain;
+  align-items: center;
+  text-align: center;
+  background-position: center;
+ 
+
+}
+.background__teste{
+  background-image: url("assets/background.png");
+  background-repeat: no-repeat;
+  height: 100%;
+  background-size: cover;
+ 
+}
   .casamento__container{
     flex-direction: column;
     padding: 5%;
